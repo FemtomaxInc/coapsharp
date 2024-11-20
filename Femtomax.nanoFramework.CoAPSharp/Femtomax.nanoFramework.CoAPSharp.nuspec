@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Femtomax.nanoFramework.CoAPSharp</id>
+    <version>1.0.0</version>
+    <title>CoAPSharp</title>
+    <authors>Femtomax Inc</authors>
+    <owners>Femtomax Inc</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <icon>assets/coapsharp_logo.png</icon>
+    <developmentDependency>false</developmentDependency>
+    <projectUrl>https://github.com/FemtomaxInc/coapsharp</projectUrl>
+    <description>CoAP library for nanoFramework</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>(c) 2024 All rights reserved</copyright>
+    <tags>CoAP nanoframework esp32</tags>
+    <dependencies>
+      <dependency id="nanoFramework.CoreLibrary" version="[1.15.5,)" />
+      <dependency id="nanoFramework.System.Net" version="[1.11.1,)" />
+      <dependency id="nanoFramework.System.Math" version="[1.5.43,)" />
+      <dependency id="nanoFramework.System.Collections" version="[1.5.45,)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Femtomax.nanoFramework.CoAPSharp.dll" target="lib\Femtomax.nanoFramework.CoAPSharp.dll" />
+    <file src="Femtomax.nanoFramework.CoAPSharp.pdbx" target="lib\Femtomax.nanoFramework.CoAPSharp.pdbx" />
+    <file src="Femtomax.nanoFramework.CoAPSharp.pe" target="lib\Femtomax.nanoFramework.CoAPSharp.pe" />
+    <file src="assets\coapsharp_logo.png" target="assets" />
+  </files>
+</package>
